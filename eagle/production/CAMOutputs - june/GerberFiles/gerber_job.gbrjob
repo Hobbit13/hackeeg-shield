@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-06-17T15:18:01Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.376,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "hackeeg-shield"
+        },
+        "Owner": "Frodo Muijzer <f.muijzer@utwente.nl>",
+        "Size": {
+            "X": 101.6,
+            "Y": 53.34
+        }
+    }
+}

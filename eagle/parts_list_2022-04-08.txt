@@ -1,0 +1,141 @@
+Partlist
+
+Exported from hackeeg-shield.sch at 8-4-2022 15:44
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value             Device            Package                    Library                    Sheet
+
+C1       10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C2       4.7uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          3
+C3       4.7uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          3
+C4       1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C5       10 uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C6       10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C7       1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C8       0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C9       1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C10      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C11      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C12      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C13      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C14      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C15      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C16      10 uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C17      100uF             CAP1210           1210                       SparkFun-Passives          1
+C18      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C19      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C20      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C21      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C22      10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C23      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C24      10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C25      100uF             CAP1210           1210                       SparkFun-Passives          1
+C26      10pF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C27      10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C28      10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          3
+C29      100nF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C30      100nF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C31      10pF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C32      100pF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C33      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C34      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C35      1 pF TVS          CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C36      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C37      220pF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C38      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C39      100nF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C40      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C41      100nF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C42      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C44      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C46      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C48      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C50      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C60      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C62      NC                CAP0603-CAP       0603-CAP                   SparkFun-Passives          2
+C63      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C64      10uF              CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C65      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C67      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          3
+C68      1uF               CAP0603-CAP       0603-CAP                   SparkFun-Passives          1
+C69      0.1uF             CAP0603-CAP       0603-CAP                   SparkFun-Passives          3
+D1       RED               LED-RED1206       LED-1206                   SparkFun-LED               1
+D2       BLUE              LED-WHITE         LED-1206                   SparkFun-LED               1
+D3       BLUE              LED-WHITE         LED-1206                   SparkFun-LED               3
+D4       BLUE              LED-WHITE         LED-1206                   SparkFun-LED               3
+ESD$1    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$2    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$3    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$4    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$5    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$6    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$7    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+ESD$8    ESD7L             ESD7L             SOT-723                    ESD7L                      2
+IC1      ADS1299IPAG       ADS1299*PAG*      TQFP64                     ADS129x                    1
+IC7      OPA376DBV         OPA376DBV         SOT23-5                    OPA376                     2
+IC8      OPA376DBV         OPA376DBV         SOT23-5                    OPA376                     2
+ISO1     AM1DM-0505SH60-NZ AM1DM-0505SH60-NZ SIP1005W50P254L1965H1265Q7 Aimtec AM1D                3
+J1       533981071         533981071         CON_533981071              Molex Picoblade 53398-1071 3
+J2       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J3       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J4       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J5       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J6       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J7       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J8       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+J9       SJ1-3535N         SJ1-3535N         CUI_SJ1-3535N              SJ1-3535N                  2
+JP20     PWMH              PINHD-1X10        1X10                       SmartPrj                   3
+JP21     PWML              PINHD-1X8         1X08                       SmartPrj                   3
+JP22     COMMUNICATION     PINHD-1X8         1X08                       SmartPrj                   3
+JP24     ADCH              PINHD-1X8         1X08                       SmartPrj                   3
+JP25     ADCL              PINHD-1X8         1X08                       SmartPrj                   3
+JP26     POWER             PINHD-1X8         1X08                       SmartPrj                   3
+L1       6.8 uH            INDUCTOR0805      0805                       SparkFun-Passives          3
+L2       3.3 uH            INDUCTOR0805      0805                       SparkFun-Passives          1
+L3       3.3 uH            INDUCTOR0805      0805                       SparkFun-Passives          1
+L4       3.3 uH            INDUCTOR0805      0805                       SparkFun-Passives          1
+R1       270               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          1
+R2       10k               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          3
+R3       10k               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          1
+R4       10k               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          1
+R5       270               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          3
+R7       1k                RESISTOR0603-RES  0603-RES                   SparkFun-Passives          3
+R8       270               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          3
+R9       10k               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          1
+R10      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R11      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R18      270               RESISTOR0603-RES  0603-RES                   SparkFun-Passives          1
+R22      2M                RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R23      2M                RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R25      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R34      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R35      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R36      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R37      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R38      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R39      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R40      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R41      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R42      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R43      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R44      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R45      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R46      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R47      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R48      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+R49      4.99k             RESISTOR0603-RES  0603-RES                   SparkFun-Passives          2
+SJ2                        SJ2W              SJ_2                       jumper                     3
+SJ3                        SJ2W              SJ_2                       jumper                     3
+SJ4                        SJ2W              SJ_2                       jumper                     1
+SW1      SPST_TACT-EVQQ2   SPST_TACT-EVQQ2   EVQ-Q2                     adafruit                   1
+TP1      AVDD_TEST_POINT   PINHD-1X1         1X01                       adafruit                   1
+TP3      AGND_TEST_POINT   PINHD-1X1         1X01                       adafruit                   1
+TP4      VREFP_TEST_POINT  PINHD-1X1         1X01                       adafruit                   1
+U1       R1SE-0505-R       R1SE-0505-R       R1SE-0505-R_RCP            R1SE-0505-R                3
+U2       MAX14483AAP+      MAX14483AAP+      21-0056C_20_MXM            MAX14483AAP                3
+U3       ADP151AUJZ-3.3    ADP151AUJZ-3.3    UJ_5_ADI                   ADP151AUJZ-3.3             1
+U4       ADP151AUJZ-3.3    ADP151AUJZ-3.3    UJ_5_ADI                   ADP151AUJZ-3.3             1
+U5       NUCLEO-F429ZI     NUCLEO-F429ZI     MODULE_NUCLEO-F429ZI       NUCLEO-F429ZI              4
