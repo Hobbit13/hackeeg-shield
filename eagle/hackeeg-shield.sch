@@ -4291,7 +4291,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="MAX14483AAP" deviceset="MAX14483AAP+" device=""/>
 <part name="J11" library="Molex Picoblade 53398-1071" deviceset="533981071" device=""/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.99k"/>
-<part name="J10" library="Molex Picoblade 53398-1071" deviceset="533981071" device=""/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0R"/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0R"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0R"/>
@@ -4306,6 +4305,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J7" library="SJ1-3535N-a" deviceset="SJ1-3535N" device=""/>
 <part name="J8" library="SJ1-3535N-a" deviceset="SJ1-3535N" device=""/>
 <part name="J9" library="SJ1-3535N-a" deviceset="SJ1-3535N" device=""/>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5738,9 +5738,6 @@ SJ1-3535NG</text>
 <attribute name="NAME" x="37.592" y="9.3726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="37.592" y="4.318" size="1.778" layer="96"/>
 </instance>
-<instance part="J10" gate="A" x="27.94" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.7744" y="40.4114" size="2.0828" layer="95" ratio="6" rot="SR180"/>
-</instance>
 <instance part="J2" gate="G$1" x="22.86" y="251.46" smashed="yes">
 <attribute name="NAME" x="15.2304" y="259.598240625" size="2.5432" layer="95"/>
 <attribute name="VALUE" x="15.233790625" y="241.0375" size="2.54206875" layer="96"/>
@@ -5895,7 +5892,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <label x="40.64" y="73.66" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="12"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
@@ -5910,7 +5906,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <label x="40.64" y="71.12" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="11"/>
 </segment>
 </net>
 <net name="IN1P" class="0">
@@ -5932,7 +5927,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <label x="40.64" y="63.5" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="IN1N" class="0">
@@ -5954,7 +5948,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <label x="40.64" y="60.96" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="IN2N" class="0">
@@ -5976,7 +5969,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 <label x="40.64" y="55.88" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="AIN3P" class="0">
@@ -6020,7 +6012,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <label x="40.64" y="53.34" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="AIN4P" class="0">
@@ -6064,7 +6055,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
 <label x="40.64" y="48.26" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="IN4N" class="0">
@@ -6086,7 +6076,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
 <label x="40.64" y="45.72" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="IN5P" class="0">
@@ -6467,7 +6456,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
 <label x="40.64" y="68.58" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="IN2P" class="0">
@@ -6489,7 +6477,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="40.64" y="58.42" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="IN3N" class="0">
@@ -6511,7 +6498,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <label x="40.64" y="50.8" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -6580,7 +6566,6 @@ SJ1-3535NG</text>
 <segment>
 <wire x1="27.94" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
 <label x="40.64" y="66.04" size="1.778" layer="95"/>
-<pinref part="J10" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="BIASINV" class="0">
@@ -6661,7 +6646,6 @@ License v.1.2</text>
 <text x="359.156" y="230.886" size="1.524" layer="91">D8</text>
 <text x="71.12" y="261.62" size="1.778" layer="91">Only one of the two isolated DCDC converters is required</text>
 <text x="70.612" y="140.208" size="1.778" layer="91" rot="R180">ISO Active LED</text>
-<text x="43.18" y="172.72" size="1.778" layer="91">SPI_CS pull-up needed?</text>
 <text x="208.28" y="147.32" size="1.778" layer="97">- SPI2_MOSI: PC_3, A2 
 - SPI2_MISO: PC_2, A4 
 - SPI2_CS: PB_9, D14 
@@ -6713,12 +6697,12 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 <attribute name="NAME" x="199.39" y="157.353" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.39" y="152.273" size="1.778" layer="96"/>
 </instance>
-<instance part="C69" gate="G$1" x="33.528" y="159.512" smashed="yes">
-<attribute name="NAME" x="35.052" y="162.433" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.052" y="157.353" size="1.778" layer="96"/>
+<instance part="C69" gate="G$1" x="23.368" y="159.512" smashed="yes">
+<attribute name="NAME" x="24.892" y="162.433" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.892" y="157.353" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="33.528" y="135.382" smashed="yes">
-<attribute name="VALUE" x="30.861" y="132.207" size="1.778" layer="96"/>
+<instance part="SUPPLY17" gate="G$1" x="23.368" y="135.382" smashed="yes">
+<attribute name="VALUE" x="20.701" y="132.207" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY18" gate="PE" x="190.5" y="139.7" smashed="yes">
 <attribute name="VALUE" x="186.055" y="135.001" size="1.778" layer="96"/>
@@ -6768,13 +6752,13 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 <attribute name="NAME" x="188.7474" y="152.908" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="186.182" y="152.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D4" gate="G$1" x="185.166" y="165.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="180.594" y="161.544" size="1.778" layer="95"/>
-<attribute name="VALUE" x="180.594" y="159.385" size="1.778" layer="96"/>
+<instance part="D4" gate="G$1" x="180.594" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="185.166" y="168.656" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="185.166" y="170.815" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R2" gate="G$1" x="50.8" y="157.988" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.5526" y="159.512" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="55.118" y="159.512" size="1.778" layer="96" rot="R270"/>
+<instance part="R2" gate="G$1" x="38.1" y="157.988" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.8526" y="159.512" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="42.418" y="159.512" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY4" gate="PE" x="269.24" y="220.98" smashed="yes">
 <attribute name="VALUE" x="264.795" y="216.281" size="1.778" layer="96"/>
@@ -6817,40 +6801,49 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 <attribute name="NAME" x="136.652" y="160.8074" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="141.732" y="160.782" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R19" gate="G$1" x="50.292" y="162.56" smashed="yes">
+<attribute name="NAME" x="48.768" y="156.6926" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.768" y="159.258" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="DVDD" class="0">
 <segment>
-<wire x1="17.78" y1="167.64" x2="33.528" y2="167.64" width="0.1524" layer="91"/>
-<label x="17.78" y="167.64" size="1.778" layer="95"/>
-<wire x1="33.528" y1="167.64" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="167.64" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="167.64" x2="23.368" y2="167.64" width="0.1524" layer="91"/>
+<label x="7.62" y="167.64" size="1.778" layer="95"/>
+<wire x1="23.368" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="163.068" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
-<junction x="50.8" y="167.64"/>
-<junction x="33.528" y="167.64"/>
+<wire x1="43.18" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="163.068" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
+<junction x="38.1" y="167.64"/>
+<junction x="23.368" y="167.64"/>
 <pinref part="C69" gate="G$1" pin="1"/>
-<wire x1="33.528" y1="164.592" x2="33.528" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="23.368" y1="164.592" x2="23.368" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="VDDA"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="45.212" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="162.56" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
+<junction x="43.18" y="167.64"/>
 </segment>
 </net>
 <net name="AGND" class="0">
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="AGND"/>
 <pinref part="C69" gate="G$1" pin="2"/>
-<wire x1="33.528" y1="144.78" x2="33.528" y2="156.972" width="0.1524" layer="91"/>
+<wire x1="23.368" y1="144.78" x2="23.368" y2="156.972" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="144.78" x2="33.528" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="144.78" x2="33.528" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="33.528" y1="144.78" x2="33.528" y2="137.922" width="0.1524" layer="91"/>
-<junction x="33.528" y="137.922"/>
-<wire x1="78.74" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="165.1" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<junction x="43.18" y="144.78"/>
-<junction x="33.528" y="144.78"/>
+<wire x1="50.8" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="144.78" x2="23.368" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="144.78" x2="23.368" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="23.368" y1="144.78" x2="23.368" y2="137.922" width="0.1524" layer="91"/>
+<junction x="23.368" y="137.922"/>
+<wire x1="78.74" y1="165.1" x2="33.02" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="165.1" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
+<junction x="33.02" y="144.78"/>
+<junction x="23.368" y="144.78"/>
 <junction x="50.8" y="144.78"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="144.78" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
@@ -7005,9 +6998,10 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 </net>
 <net name="DRDY" class="0">
 <segment>
-<wire x1="78.74" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="162.56" x2="55.372" y2="162.56" width="0.1524" layer="91"/>
 <label x="60.96" y="162.56" size="1.778" layer="95"/>
 <pinref part="U2" gate="A" pin="!IFAULT"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
@@ -7046,9 +7040,9 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 <pinref part="J1" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="149.86" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="149.86" x2="50.8" y2="152.908" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="149.86" x2="38.1" y2="152.908" width="0.1524" layer="91"/>
 <label x="60.96" y="149.86" size="1.778" layer="95"/>
 <pinref part="U2" gate="A" pin="!OCS"/>
 </segment>
@@ -7147,21 +7141,6 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 <pinref part="U2" gate="A" pin="!SDOEN"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="190.5" y1="159.512" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="165.1" x2="187.706" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="180.086" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="SAA"/>
-</segment>
-</net>
 <net name="START_D68" class="0">
 <segment>
 <pinref part="JP24" gate="A" pin="2"/>
@@ -7246,6 +7225,21 @@ has to be pulled low seperate from the CS line to activate the OSDO. </text>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="U2" gate="A" pin="OSDO"/>
 <wire x1="142.748" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="SAA"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="124.46" y1="165.1" x2="178.054" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="185.674" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="165.1" x2="190.5" y2="159.512" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
