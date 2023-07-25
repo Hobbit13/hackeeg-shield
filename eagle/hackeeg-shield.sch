@@ -4306,6 +4306,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J8" library="SJ1-3535N-a" deviceset="SJ1-3535N" device=""/>
 <part name="J9" library="SJ1-3535N-a" deviceset="SJ1-3535N" device=""/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="NC"/>
+<part name="C43" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="NC"/>
+<part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -4326,7 +4329,6 @@ License v.1.2</text>
 <text x="256.286" y="30.988" size="2.54" layer="91">Power LED</text>
 <text x="271.78" y="142.494" size="1.27" layer="91">NC</text>
 <text x="378.46" y="198.12" size="1.778" layer="97">CLK_SEL high = use internal clock</text>
-<text x="275.336" y="142.494" size="1.27" layer="91">NC</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -4602,6 +4604,18 @@ License v.1.2</text>
 <instance part="C41" gate="G$1" x="371.602" y="65.532" smashed="yes" rot="MR270">
 <attribute name="NAME" x="372.491" y="60.96" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="374.269" y="68.072" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="R20" gate="G$1" x="274.32" y="121.412" smashed="yes" rot="R90">
+<attribute name="NAME" x="272.5674" y="119.888" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="277.622" y="119.888" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C43" gate="G$1" x="263.652" y="121.158" smashed="yes" rot="MR0">
+<attribute name="NAME" x="259.08" y="120.269" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="266.192" y="118.491" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="R21" gate="G$1" x="257.048" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="258.572" y="135.4074" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="258.572" y="140.462" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -5249,8 +5263,15 @@ License v.1.2</text>
 <net name="BIASINV" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="BIASINV"/>
-<wire x1="278.638" y1="144.272" x2="278.638" y2="128.524" width="0.1524" layer="91"/>
+<wire x1="278.638" y1="144.272" x2="278.638" y2="114.3" width="0.1524" layer="91"/>
 <label x="281.178" y="128.778" size="1.778" layer="95" rot="R90"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="116.332" x2="274.32" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="278.638" y1="114.3" x2="274.32" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="114.3" x2="263.652" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="263.652" y1="114.3" x2="263.652" y2="118.618" width="0.1524" layer="91"/>
+<junction x="274.32" y="114.3"/>
 </segment>
 </net>
 <net name="VCC_5V_FILTERED" class="0">
@@ -5411,10 +5432,9 @@ License v.1.2</text>
 </net>
 <net name="PGND" class="0">
 <segment>
-<wire x1="271.018" y1="144.272" x2="271.018" y2="136.398" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="BIASIN"/>
-<wire x1="271.018" y1="136.398" x2="257.302" y2="136.398" width="0.1524" layer="91"/>
-<label x="259.08" y="137.16" size="1.778" layer="95"/>
+<wire x1="251.968" y1="137.16" x2="236.982" y2="137.16" width="0.1524" layer="91"/>
+<label x="237.236" y="137.414" size="1.778" layer="95"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5452,6 +5472,27 @@ License v.1.2</text>
 <pinref part="IC1" gate="G$1" pin="SRB2"/>
 <wire x1="304.038" y1="144.272" x2="304.038" y2="134.874" width="0.1524" layer="91"/>
 <label x="303.53" y="135.636" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="BIASOUT"/>
+<wire x1="276.098" y1="144.272" x2="276.098" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="276.098" y1="132.08" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="132.08" x2="274.32" y2="126.492" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="132.08" x2="263.652" y2="132.08" width="0.1524" layer="91"/>
+<junction x="274.32" y="132.08"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="263.652" y1="132.08" x2="263.652" y2="126.238" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="262.128" y1="137.16" x2="271.018" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="BIASIN"/>
+<wire x1="271.018" y1="137.16" x2="271.018" y2="144.272" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
